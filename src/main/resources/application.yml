@@ -1,0 +1,20 @@
+#spring.profiles.active=dev
+server:
+   port: 9999
+   servlet:
+      context-path: /web
+
+spring:
+   profiles:
+      active: dev
+   #datasource:
+      #druid:
+         #type: com.alibaba.druid.pool.DruidDataSource
+         #driver-class-name: org.postgresql.Driver
+       # url: jdbc:postgresql://localhost:5432/postgres
+         #username: postgres
+         #password: admin123
+
+swagger:
+  enabled: true
+  
